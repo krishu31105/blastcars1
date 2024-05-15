@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .car {
+            margin: 20px;
+            text-align: center;
+        }
+        .car img {
+            max-width: 300px;
+            height: auto;
+        }
+        .car h3 {
+            margin-top: 10px;
+        }
+        .car p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Gallery</h1>
+    <div class="car-container">
+        <div class="car">
+            <img src="car1.jpg" alt="THE VOLVO">
+            <h3>Car 1</h3>
+            <p>$20,000</p>
+        </div>
+        <div class="car">
+            <img src="car2.jpg" alt="LOOK">
+            <h3>Car 2</h3>
+            <p>$25,000</p>
+        </div>
+        <div class="car">
+            <img src="car3.jpg" alt="BRAND">
+            <h3>Car 3</h3>
+            <p>$30,000</p>
+        </div>
+        <!-- Add more cars as needed -->
+    </div>
+</body>
+</html>
